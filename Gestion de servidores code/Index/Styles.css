@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(56, 52, 52);
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+nav {
+    background-color: #655555;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: rgb(105, 105, 105);
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #000000;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    color: #7a7676;
+}
+
+
+
+
+
+
+.image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.image-modal .modal-content {
+    position: relative;
+}
+
+.image-modal img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.image-modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(167, 162, 162);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #f7f0e6;
+    color: #080707;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav {
+    background: #252525;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fdfdfd;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.post h3 {
+    color: #444;
+}
+
+.post-date {
+    font-size: 0.8em;
+    color: #777;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+/* Estilos para el encabezado */
+header {
+    padding: 10px 20px;  /* Ajusta el padding para reducir el espacio superior */
+    margin-top: 0;  /* Elimina el margen superior */
+    text-align: center;
+    background-color: #f4f4f4; /* Color de fondo para el encabezado */
+}
+
+header .logo {
+    margin-bottom: 5px;  /* Reduce el margen inferior del logo */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h3 {
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Estilos para la navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Estilos para el pie de página */
+footer {
+    padding: 20px;
+    text-align: center;
+}
