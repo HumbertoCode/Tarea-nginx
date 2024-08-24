@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 30px;
     padding: 0;
     line-height: 1.6;
 }
@@ -9,6 +9,7 @@ header {
     background: #ffffff;
     padding: 10px;
     text-align: center;
+    margin-bottom: 20px; 
 }
 
 header .logo img {
@@ -32,12 +33,13 @@ nav {
     background-color: #333;
     padding: 10px 0;
     overflow: hidden;
+    margin-bottom: 20px; 
 }
 
 nav a {
     color: #fff;
     margin: 0 15px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -50,6 +52,7 @@ nav a:hover {
 main {
     padding: 20px;
     text-align: left;
+    margin-bottom: 10px; 
 }
 
 h2 {
@@ -85,7 +88,7 @@ h2 {
     gap: 10px;
     padding: 20px;
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto; 
 }
 
 .gallery img {
@@ -128,13 +131,12 @@ h2 {
     cursor: pointer;
 }
 
-
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 30px; 
 }
 
 footer .social-media a {
@@ -147,7 +149,6 @@ footer .social-media a {
 footer .social-media a:hover {
     color: #7a7676;
 }
-
 
 .lightbox {
     position: fixed;
@@ -197,31 +198,10 @@ footer .social-media a:hover {
 #next {
     right: 10px;
 }
-
-
-/* Styles.css */
 nav {
     position: relative;
 }
 
-#menu-toggle {
-    display: none;
-}
-
 nav .hidden {
     display: none;
-}
-
-@media (max-width: 768px) {
-    #menu-toggle {
-        display: inline-block;
-    }
-    
-    nav a {
-        display: none;
-    }
-    
-    nav.active a {
-        display: block;
-    }
 }

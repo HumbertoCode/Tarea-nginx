@@ -43,6 +43,7 @@ h2 {
     color: #333;
 }
 
+
 /* Galería */
 .gallery {
     display: grid;
@@ -64,7 +65,6 @@ h2 {
     transform: scale(1.05);
 }
 
-/* Modal */
 .modal, .image-modal {
     display: flex;
     position: fixed;
@@ -93,7 +93,6 @@ h2 {
     cursor: pointer;
 }
 
-/* Footer */
 footer {
     background-color: #1a1a1a;
     color: white;
@@ -111,11 +110,6 @@ footer .social-media a {
     font-size: 1.5em;
 }
 
-/* Enlace de Pinterest */
-.pinterest-link {
-    margin-top: 20px;
-}
-
 .pinterest-link a {
     color: #fff;
     text-decoration: none;
@@ -125,11 +119,6 @@ footer .social-media a {
     border-radius: 5px;
 }
 
-.pinterest-link a:hover {
-    background-color: #c2001b;
-}
-
-/* Formulario de contacto */
 #contact {
     background: #f1f1f1;
     padding: 10px;
@@ -184,7 +173,6 @@ form input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Estilos para dispositivos móviles */
 @media screen and (max-width: 768px) {
     header .logo img {
         max-width: 100px;
@@ -229,7 +217,6 @@ form input[type="submit"]:hover {
     }
 }
 
-/* Estilos para tablets */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     header .logo img {
         max-width: 120px;
@@ -255,7 +242,6 @@ form input[type="submit"]:hover {
     }
 }
 
-/* Estilos para pantallas grandes */
 @media screen and (min-width: 1025px) {
     header .logo img {
         max-width: 150px;
